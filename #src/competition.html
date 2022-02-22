@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Соревнование"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{})
+		<main class="page">
+
+			<section id="banner" class="banner">
+				<div class="nuar_blk"></div>
+				<div class="_container">
+					<div class="banner__flex d-flex">
+
+						<div class="banner__flex-descp">
+							<h1 class="banner__title">
+								Мотокросс в г. Курске, <br>
+								урочище Крутой лог
+							</h1>
+							<div class="banner__flex-descp-btn d-flex">
+								<a href="#" class="btn">ПОДРОБНЕЕ О СОРЕВНОВАНИИ</a>
+							</div>
+						</div>
+
+						<div class="banner__flex-date">
+							<p class="banner__flex-date-number">16-17</p>
+							<div class="banner__flex-date-line"></div>
+							<p class="banner__flex-date-month">октября</p>
+							<p class="banner__flex-date-year">2022</p>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="page-recurring">
+				<div class="_container">
+					<p id="breadcrumbs">
+						<span>
+							<span>
+								<a href="index.html">
+									Главная
+								</a> /
+								<a href="#">
+									Проводимые соревнования
+								</a> /
+								<span class="breadcrumb_last" aria-current="page">
+									Соревнование 1
+								</span>
+							</span>
+						</span>
+					</p>
+				</div>
+			</section>
+
+			<section id="line" class="line">
+				<div class="_container">
+					<div class="line-bg"></div>
+				</div>
+			</section>
+
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_popup.html',{})
+	@@include('_js.html',{})
+</body>
+
+</html>
