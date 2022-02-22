@@ -58,10 +58,10 @@ $mainColor: #727272;
 body {
 	font-weight: 400;
 	color: $mainColor;
-	// background: #333;
+	background: #333;
 	a {
 		font-family: "ProximaNova";
-		color: #727272;
+		color: #000;
 	}
 	&._lock {
 		overflow: hidden;
