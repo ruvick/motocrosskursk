@@ -3398,6 +3398,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-bottom: 0;
 }
 
+.line-bg {
+  height: 1px;
+  background: #E6E6E6;
+}
+
 .competitions {
   padding: 90px 0 100px 0;
 }
