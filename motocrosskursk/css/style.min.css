@@ -3911,6 +3911,22 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   ::-webkit-scrollbar {
     display: none;
   }
+
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer__social-block {
+    flex: 0 1 100%;
+  }
+
+  .footer__menu {
+    margin-bottom: 10px;
+  }
+
+  .footer__contacts {
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 700px) {
   .mob-menu {
@@ -3928,6 +3944,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .popup__form-block {
     padding: 35px 15px;
+  }
+
+  .footer__menu li {
+    flex: 0 1 100%;
+  }
+
+  .footer__contacts {
+    flex-wrap: wrap;
+  }
+
+  .footer__phone {
+    flex: 0 1 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .footer__mail:before,
+.footer__phone:before {
+    display: none;
   }
 }
 @media (max-width: 515px) {
