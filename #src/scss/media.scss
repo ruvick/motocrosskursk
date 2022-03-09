@@ -1,9 +1,28 @@
 //<Адаптив>===========================================================================================================================================
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
 	._container {
-		padding: 0 10px; 
+		padding: 0 10px;  
 	}
 }
+
+@media (max-width: 1024px) { 
+	.menu-list a {
+		padding: 5px 25px 5px 0;}
+	.header__social {
+		margin-right: 10px;}
+}
+
+@media (max-width: 860px) { 
+	.logo-icon {
+    flex: 0 0 150px;
+    height: 115px;}
+}
+
+@media (max-width: 812px) { 
+	.header__contacts {
+    flex: 0 0 190px;}
+}
+
 
 @media (max-width: 768px) { 
 	.header {
@@ -12,14 +31,17 @@
 		padding: 5px 0;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);}
 	.header__logo {
-		margin-right: 20px;}
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;}
 	.logo-icon {
 		flex: 0 0 45px;
-    height: 15px;}
+    height: 40px;
+		box-shadow: none;}
 	.logo-icon:before {
-		flex: 0 0 100%;
+		flex: 0 1 100%;
 		height: 100%;}
-	.logo-icon p {
+	.header__mail {
 		display: none;}
 	.icon-menu {
 		display: flex;}
@@ -30,11 +52,12 @@
 	.header__search form {
 		max-height: 30px;}
 	.header__contacts {
-		flex: 0 0 133px;
-    margin-left: auto;
+		flex: 0 0 135px;
     margin-right: 15px;}
 	.header__phone {
-		font-size: 18px;}
+		margin-top: 3px;}
+	.header__phone:before {
+		display: none;}
 	.header__time-phone {
 		display: none;}
   .header__popup-link {
@@ -42,6 +65,11 @@
   .header__popup-link_mob {
   	display: flex;
   	margin-left: 0;}
+	.social-block-icon {
+		width: 36px;
+		height: 36px;}
+	.social-block-icon:before {
+		background-size: 90%;}
 	section {
 		padding: 20px 0 !important;}
 	.title {
@@ -67,11 +95,6 @@
 }
 
 @media (max-width: 515px) {
-	.header__contacts {
-		display: none;}
-	.header__mob-phone-icon {
-    display: flex; 
-		margin-right: 25px;}
 	.popup__img {
 		display: none;}
 	.popup__form-block {
@@ -97,4 +120,13 @@
 	.search__input {
     border-radius: 0 !important;
 	}
+}
+
+@media (max-width: 375px) {
+.header__contacts {
+	display: none;}
+.header__mob-phone-icon {
+	display: flex;
+	margin-left: 5px;
+	margin-right: 15px;}
 }
