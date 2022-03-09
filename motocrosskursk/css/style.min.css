@@ -3416,7 +3416,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .banner__flex {
   position: relative;
-  z-index: 500;
+  z-index: 50;
   width: 100%;
   justify-content: space-between;
   align-items: start;
@@ -3800,6 +3800,28 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     padding: 0 10px;
   }
 }
+@media (max-width: 1150px) {
+  .competitions__card-descp-flex-btn {
+    padding: 15px 15px;
+  }
+}
+@media (max-width: 1050px) {
+  .competitions__row {
+    margin: 0 -10px;
+  }
+
+  .competitions__column {
+    padding: 0 10px;
+  }
+
+  .competitions__card-descp-flex-btn {
+    padding: 15px 10px;
+  }
+
+  .competitions__card-descp {
+    padding: 23px 10px 21px 10px;
+  }
+}
 @media (max-width: 1024px) {
   .menu-list a {
     padding: 5px 25px 5px 0;
@@ -3808,11 +3830,19 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .header__social {
     margin-right: 10px;
   }
+
+  .banner {
+    height: 500px;
+  }
 }
 @media (max-width: 860px) {
   .logo-icon {
     flex: 0 0 150px;
     height: 115px;
+  }
+
+  .competitions__column {
+    flex: 0 1 100%;
   }
 }
 @media (max-width: 812px) {
@@ -3851,10 +3881,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .icon-menu {
     display: flex;
-  }
-
-  .header__menu-block {
-    margin-right: 15px;
   }
 
   .header__menu-list {
@@ -3927,6 +3953,48 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .footer__contacts {
     margin-bottom: 10px;
   }
+
+  .banner {
+    height: 400px;
+  }
+
+  .banner__flex-date {
+    padding: 15px 35px;
+  }
+
+  .banner__flex-date-number {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .banner__flex-date-month {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .banner__flex-date-line {
+    margin: 5px 0 5px 0;
+  }
+
+  .banner ._container {
+    align-items: center;
+  }
+
+  .banner__flex-date:before {
+    top: -3px;
+    left: 2%;
+    width: 175px;
+  }
+
+  .about__title {
+    margin-bottom: 10px;
+  }
+
+  .about__descp p {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
 }
 @media (max-width: 700px) {
   .mob-menu {
@@ -3935,6 +4003,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -webkit-transition: right 0.8s;
     -o-transition: right 0.8s;
     transition: right 0.8s;
+  }
+
+  .banner__flex-date {
+    flex: 0 0 200px;
+  }
+
+  .banner__flex-descp-btn {
+    flex-wrap: wrap;
+  }
+
+  .banner__flex-descp-btn a {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 612px) {
@@ -3973,6 +4053,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .popup__form-block {
     flex: 0 1 100%;
   }
+
+  .banner__flex {
+    flex-wrap: wrap;
+  }
+
+  .banner__title {
+    margin-bottom: 15px;
+  }
+
+  .banner {
+    height: auto;
+    padding: 80px 0 45px 0 !important;
+  }
+
+  .banner__flex-descp {
+    margin-bottom: 15px;
+  }
 }
 @media (max-width: 480px) {
   .header__search {
@@ -3995,6 +4092,43 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .search__input {
     border-radius: 0 !important;
+  }
+
+  .competitions__card-descp-flex {
+    flex-wrap: wrap;
+  }
+
+  .competitions__card-descp-flex-btn {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .banner__flex-descp-btn a {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .banner__flex-date {
+    padding: 35px;
+    flex: 0 1 100%;
+  }
+
+  .banner__flex-date-number {
+    font-size: 65px;
+    line-height: 65px;
+  }
+
+  .banner__flex-date-month {
+    font-size: 28px;
+    line-height: 25px;
+  }
+
+  .banner__flex-date-line {
+    margin: 10px 0;
+  }
+
+  .competitions__card-descp-flex-btn {
+    width: 100%;
   }
 }
 @media (max-width: 375px) {
